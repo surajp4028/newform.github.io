@@ -1,0 +1,62 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+body{
+     background: url(wall.jpg);
+    background-size: cover;
+    background-position: top ;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+   
+}
+div.main{
+    background-position: center;
+    width: 400px;
+    padding: 100px;
+    margin: auto;
+}
+h2{
+    text-align: center;
+    /* padding: 20px; */
+    padding-top: 30px;
+    font-family: sans-serif;
+    color: rgb(32, 227, 253);
+
+}
+ div.register{
+     background-position: center;
+     background-color: rgba(7, 7, 7, 0.623);
+     width: 100%;
+     border-radius: 5px;
+     border: 1px solid black;
+     box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.623);
+ }   
+ label{
+    background-position: center;
+     font-family: sans-serif;
+     font-size: 90%;
+     font-style: italic;
+     color: blanchedalmond;
+ }
+#register{
+    
+    margin: 50px;
+    
+}
+#name,#age,#mail,#dob,#state{
+    background-position: center;
+    width: 300px;
+}
+#submit,#reset{
+    
+    background-position: center;
+
+    box-shadow: 2px 2px 10px;
+    width: 60px;
+    border-radius: 10px;
+    background-color: rgb(24, 180, 252);
+
+}

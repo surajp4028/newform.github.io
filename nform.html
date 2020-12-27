@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <link rel="stylesheet" href="styel.css">
+</head>
+
+<body>
+    
+ <div class="main">
+     <div class="register">
+          <h2>Fill the Registration form</h2>
+          <form id="register" action="data.php" method="POST">
+            <label>First Name :</label>
+             <br>
+            <input type="text" name="fname" id="name" placeholder="enter your first name">
+            <br>
+            <br>
+           <label>Last Name :</label> 
+           <br>
+           <input type="text" name="lname" id="name" placeholder="enter you last name">
+           <br>
+           <br>
+           <label>Your Age :</label>
+           <br>
+           <input type="number" name="age" id="age" placeholder="Hoe old are you">
+           <br>
+           <br>
+           <label>Email :</label>
+           <br>
+           <input type="email" name="email" id="mail" placeholder="Enter your email">
+           <br>  <br>
+           <label>Gender :</label>
+           <input type="radio" name="gender" id="male"><span style="color: rgba(255, 255, 255, 0.74);" >Male</span>
+           
+           <input type="radio" name="gender" id="female" ><span style="color: rgba(255, 255, 255, 0.74);">Female</span>
+        
+            <input type="radio" name="gender" id="othert"><span style="color: rgba(255, 255, 255, 0.74);">other</span>
+        
+            <br>  <br>
+            <label>Date of Birth :</label>
+            <br>
+            <input type="date" name="dob" id="dob">
+            <br>  <br>
+            <label for="state">State :</label>
+            <br>
+            <select name="state" id="state">
+            <option value="def">Default</option>
+            <option value="Delhi">Delhi</option>
+            <option value="USA">USA</option>
+            <option value="Kanpur">Kanpur</option>
+            <option value="Uttar Pradesh">Uttar Pradesh</option>
+            <option value="Shri Lanka">Shri Lanka</option>
+            
+            </select>
+            <br><br>
+            <input type="Submit" name="submit" id="submit" value="Submit">
+            &nbsp;&nbsp;
+            <input type="reset" name="reset" id="reset" value="Reset">
+
+          </form>
+     </div>
+ </div>
+
+</body>
+</html>
